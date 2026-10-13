@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Quiz Degree of Comparison (B1 Intermediate) + Reading + Analisis Ketercapaian</title>
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--bg:#f3f6fa;--card:#fff;--tx:#1b2a41;--mu:#66768c;--pr:#0f3057;--on:#fff;--ac:#00909e;--am:#f2a900;--bd:#d5dde8;--ok:#2e7d32;--wn:#b97a00;--dn:#d6452a;--okb:#e3f3e5;--wnb:#fff3d6;--dnb:#fde6e1}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1726;--card:#182338;--tx:#e8eef6;--mu:#93a3ba;--pr:#3b6db3;--ac:#2cc4d3;--bd:#2c3b55;--ok:#6fcf74;--wn:#ffc857;--dn:#ff7a5c;--okb:#1d3a26;--wnb:#3d3216;--dnb:#44211b}}
+:root[data-theme="dark"]{--bg:#0f1726;--card:#182338;--tx:#e8eef6;--mu:#93a3ba;--pr:#3b6db3;--ac:#2cc4d3;--bd:#2c3b55;--ok:#6fcf74;--wn:#ffc857;--dn:#ff7a5c;--okb:#1d3a26;--wnb:#3d3216;--dnb:#44211b}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{background:var(--pr);color:var(--on);padding:16px}
+header h1{margin:0;font-size:19px}header p{margin:2px 0 0;font-size:13px;opacity:.85}
+.w{max-width:760px;margin:0 auto}main{padding:16px}
+.c{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:16px;margin-bottom:14px}
+.c h2{margin:0 0 8px;font-size:17px}
+label{display:block;font-size:13px;color:var(--mu);margin:10px 0 3px}
+input,textarea{width:100%;padding:10px;border:1px solid var(--bd);border-radius:8px;background:var(--bg);color:var(--tx);font:inherit}
+.b{background:var(--ac);color:#fff;border:0;border-radius:9px;padding:11px 18px;font:600 15px inherit;font-family:inherit;cursor:pointer}
+.b.s{background:var(--bd);color:var(--tx)}.b:disabled{opacity:.45;cursor:default}
+.pg{height:8px;background:var(--bd);border-radius:6px;overflow:hidden;margin:6px 0 12px}.pg i{display:block;height:100%;background:var(--ac)}
+.tag{display:inline-block;font-size:12px;background:var(--bg);border:1px solid var(--bd);border-radius:20px;padding:1px 10px;color:var(--mu)}
+.o{display:block;width:100%;text-align:left;background:var(--bg);color:var(--tx);border:2px solid var(--bd);border-radius:10px;padding:11px 12px;margin:8px 0;font:inherit;cursor:pointer}
+.o.on{border-color:var(--ac);background:var(--card);font-weight:600}
+.nv{display:flex;justify-content:space-between;gap:10px;margin-top:12px}
+.gr{display:grid;grid-template-columns:repeat(10,1fr);gap:4px;margin-top:14px}
+.gr button{padding:5px 0;font-size:12px;border:1px solid var(--bd);border-radius:6px;background:var(--bg);color:var(--mu);cursor:pointer}
+.gr button.d{background:var(--ac);color:#fff;border-color:var(--ac)}.gr button.cu{outline:2px solid var(--am)}
+.big{font-size:52px;font-weight:800;line-height:1;color:var(--ac)}
+.bd{display:inline-block;padding:2px 10px;border-radius:20px;font-size:12px;font-weight:700}
+.ok{background:var(--okb);color:var(--ok)}.wn{background:var(--wnb);color:var(--wn)}.dn{background:var(--dnb);color:var(--dn)}
+.br{height:12px;background:var(--bd);border-radius:7px;overflow:hidden;position:relative;margin:6px 0}.br i{display:block;height:100%}
+.br u{position:absolute;left:75%;top:0;bottom:0;border-left:2px dashed var(--tx);opacity:.5}
+.tp{padding:10px 0;border-bottom:1px solid var(--bd)}.tp:last-child{border:0}
+.rv{border-left:4px solid var(--dn);padding:6px 10px;margin:10px 0;background:var(--bg);border-radius:6px;font-size:14px}
+.mu{color:var(--mu);font-size:13px}.ms{min-height:20px;font-size:14px;color:var(--dn);margin:4px 0}
+table{border-collapse:collapse;width:100%;font-size:13px}th,td{border-bottom:1px solid var(--bd);padding:6px 8px;text-align:left;white-space:nowrap}th{color:var(--mu);font-size:12px}select{width:100%;padding:10px;border:1px solid var(--bd);border-radius:8px;background:var(--bg);color:var(--tx);font:inherit}
+.st{background:var(--bg);border-left:4px solid var(--am);padding:10px 12px;border-radius:6px;margin:10px 0;font-size:14px;line-height:1.55}
+.hide{display:none}
+</style></head><body>
+<header><div class="w"><h1>📘 Degree of Comparison — Intermediate (B1) + Reading</h1><p>50 soal • 4 teks bacaan • 5 indikator • analisis ketercapaian otomatis</p></div></header>
+<main class="w">
+
+<section id="s0" class="c">
+ <h2>Data Peserta</h2>
+ <label for="nm">Nama</label><input id="nm" placeholder="Nama lengkap" autocomplete="name">
+ <label for="kl">Kelas</label><input id="kl" placeholder="mis. XI AKL 2">
+ <p class="mu">Bagian A: 30 soal grammar (Comparative • Superlative • Equality &amp; Similarity). Bagian B: 20 soal membaca dari 4 teks (Comparison Details • Inference &amp; Vocabulary). Ketuntasan per indikator: skor ≥ 75.</p>
+ <div class="ms" id="m0"></div>
+ <button class="b" onclick="mulai()">Mulai Quiz</button> <p style="margin:18px 0 0"><a href="#" id="bg" onclick="guru();return false" style="font-size:12px;color:var(--mu)">Login guru</a></p>
+</section>
+
+<section id="s1" class="hide"><div class="c">
+ <div class="mu" id="pi"></div><div class="pg"><i id="pb"></i></div>
+ <span class="tag" id="tg"></span>
+ <div id="qb"></div><div class="ms" id="m1"></div>
+ <div class="nv"><button class="b s" id="bp" onclick="go(-1)">← Sebelumnya</button><button class="b" id="bn" onclick="go(1)">Berikutnya →</button></div>
+ <div class="gr" id="gr"></div>
+ <p class="mu">Klik nomor untuk berpindah soal. Nomor berwarna = sudah dijawab.</p>
+</div></section>
+
+<section id="s2" class="hide">
+ <div class="c"><div class="mu" id="rn"></div>
+  <div style="display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin-top:6px"><div class="big" id="sc"></div><div><div id="ss" style="font-weight:700;font-size:17px"></div><div class="mu" id="sd"></div></div></div></div>
+ <div class="c"><h2>Analisis Ketercapaian per Indikator</h2><p class="mu">Garis putus-putus = batas ketuntasan (75).</p><div id="an"></div></div>
+ <div class="c"><h2>Pembahasan Soal yang Salah</h2><div id="rv"></div></div>
+ <div class="c"><h2>Simpan Hasil</h2>
+  <p class="mu">Unduh hasil (CSV, terbuka di Excel) lalu kumpulkan kepada guru.</p>
+  <button class="b" onclick="dl()">⬇ Unduh Hasil (CSV)</button> <button class="b s" onclick="sl()">📋 Salin CSV</button> <button class="b s" onclick="ulang()">Ulangi Quiz</button>
+  <div class="ms" id="m2"></div><textarea id="fb" rows="6" class="hide" readonly></textarea></div>
+</section>
+<section id="s3" class="hide">
+ <div class="c" id="lg"><h2>Login Guru</h2><label for="gu">Username</label><input id="gu" autocomplete="username"><label for="gp">Password</label><input id="gp" type="password" autocomplete="current-password" onkeydown="if(event.key==='Enter')masuk()"><div class="ms" id="m4"></div><button class="b" onclick="masuk()">Masuk</button> <button class="b s" onclick="show(0)">← Kembali</button></div>
+<div id="gw" class="hide">
+ <div class="c"><h2>Rekap Seluruh Siswa</h2>
+  <button class="b s" onclick="keluar()">Keluar</button> <button class="b s" onclick="muat()">↻ Muat Ulang</button>
+  <label for="ff">Impor file CSV hasil siswa (boleh banyak file sekaligus)</label><input type="file" id="ff" accept=".csv,text/csv" multiple onchange="imp(this.files)">
+  <label for="pt">Atau tempel teks CSV hasil siswa (boleh banyak siswa sekaligus)</label><textarea id="pt" rows="5" placeholder="Tempel hasil CSV yang disalin siswa di sini…"></textarea><p><button class="b" onclick="tempel()">Buat Laporan Nilai dari Teks</button> <button class="b s" onclick="kirimFile('hasil-quiz-tempelan.csv',$('pt').value,'m3','fb3')">⬇ Simpan Teks Ini sebagai File (.csv)</button></p>
+  <div class="ms" id="m3"></div><textarea id="fb3" rows="6" class="hide" readonly></textarea></div>
+ <div id="gh"></div><div id="lp"></div></div>
+</section>
+</main>
+<script>
+const T=[
+ {n:"Comparative",r:"Latih pola -er/more + than, aturan 1 suku kata vs 2+ suku kata, dan pembanding dua objek."},
+ {n:"Superlative",r:"Latih pola the + -est / the most untuk tiga objek atau lebih, termasuk adverba."},
+ {n:"Equality & Similarity",r:"Ulangi as…as, not as…as, the same as, different from, similar to."},
+ {n:"Reading: Comparison Details",r:"Latih membaca teliti: temukan pihak yang lebih, kurang, atau sama dibandingkan pihak lain."},
+ {n:"Reading: Inference & Vocabulary",r:"Latih menyimpulkan makna ungkapan perbandingan, mis. not as … as, the more … the better."}];
+const PS=[
+["My Two Phones","Dina has two phones: an old one and a new one. The new phone is lighter and faster than the old one, and its camera is much better. However, it is more expensive. The old phone is not as modern as the new one, but its battery lasts longer. Dina thinks the new phone is the best phone she has ever had, but she cannot buy a more expensive one next year."],
+["Jakarta and Yogyakarta","Jakarta is bigger and busier than Yogyakarta. It has the tallest buildings in Indonesia and the heaviest traffic. Yogyakarta is smaller, quieter, and cheaper. Many students think Yogyakarta is the best city for studying because life there is not as expensive as in Jakarta. Visitors say the food in Yogyakarta is as delicious as the food in Jakarta, and the people are friendlier."],
+["Healthy Habits","Walking is healthier than sitting all day, and it is cheaper than going to a gym. Experts say the more you walk, the better you feel. Swimming is one of the most effective exercises, but it is more difficult for beginners than walking. Eating fresh fruit is better for you than eating sweets, and drinking water is the healthiest choice of all drinks."],
+["Online and Offline Classes","Online classes are more flexible than offline classes because students can study anywhere. However, many students say they concentrate less at home than in the classroom. Offline classes are not as convenient, but teachers can give help faster. A survey shows that the students with the highest scores were those who studied regularly, not those who studied the longest. The most important thing is to choose the method that suits you best."]];
+// [indikator, soal, jawaban benar, pengecoh1-3, pembahasan, (opsional) nomor teks bacaan]
+const D=[
+[0,"My new phone is ___ than my old one.","faster","more fast","fastest","most fast","Adjektiva 1 suku kata: fast → faster."],
+[0,"This exercise is ___ than the previous one.","more difficult","difficulter","the most difficult","as difficult","Adjektiva panjang: more + adjective + than."],
+[0,"Rina is ___ her sister.","taller than","more tall than","tallest than","tall than","tall → taller, lalu diikuti than."],
+[0,"The weather today is ___ yesterday.","hotter than","more hot than","hottest than","hot as","Gandakan konsonan akhir: hot → hotter."],
+[0,"Is the new bus station ___ the old one?","more modern than","modernner than","most modern than","more modern as","modern 2 suku kata lebih: more modern than."],
+[0,"My room is ___ than yours.","tidier","tidyer","more tidyer","tidiest","Akhiran -y berubah menjadi -ier."],
+[0,"Of the two options, this one is ___.","cheaper","cheapest","the cheapest","more cheap","Dua pembanding memakai comparative."],
+[0,"Mr. Budi explains the lesson ___ than Mr. Joko.","more clearly","more clear","clearlier","most clearly","Adverba -ly: more + adverb + than."],
+[0,"The river is ___ in the rainy season than in the dry season.","deeper","deepest","more deep","the deeper","deep → deeper."],
+[0,"Between Dika and Rafi, who runs ___?","faster","fastest","the fastest","more fast","Dua orang → comparative."],
+[1,"Mount Everest is ___ mountain in the world.","the highest","higher","more high","highest than","Superlative: the + adjective-est."],
+[1,"This is ___ film I have ever seen.","the most boring","more boring","boringest","the boringest","Adjektiva panjang: the most + adjective."],
+[1,"She is ___ student in our class.","the smartest","smarter","more smart","the most smart","smart → the smartest."],
+[1,"Jakarta is one of ___ cities in Southeast Asia.","the biggest","bigger","the most big","biggest than","big → the biggest (gandakan g)."],
+[1,"That was ___ day of my life.","the happiest","the most happy","happiest than","happier","-y → -iest: the happiest."],
+[1,"Which is ___ way to get to the airport?","the quickest","quicker","the most quick","quickest than","quick → the quickest."],
+[1,"He drives ___ of all my friends.","the most carefully","more carefully","the carefulest","most careful","Adverba panjang: the most + adverb."],
+[1,"This restaurant offers ___ food in town.","the best","the better","the goodest","the most good","good → better → the best."],
+[1,"In my family, my grandfather is ___ person.","the oldest","older","the most old","the olderest","old → the oldest."],
+[1,"Winter is ___ season in Canada.","the coldest","colder","the most cold","coldest than","cold → the coldest."],
+[2,"My brother is as ___ as my father.","tall","taller","tallest","more tall","as + adjective dasar + as."],
+[2,"This bag is not as ___ as that one.","expensive","more expensive","most expensive","expensiver","not as + adjective dasar + as."],
+[2,"She speaks English as ___ as a native speaker.","fluently","more fluently","fluent","fluentest","Menerangkan verb → adverba: as fluently as."],
+[2,"My phone is the same size ___ yours.","as","than","with","to","the same + noun + as."],
+[2,"Her opinion is different ___ mine.","from","with","as","at","different from."],
+[2,"Both tests are simple. This test is ___ easy as the last one.","just as","not so","less","more","just as … as = sama persis."],
+[2,"Ali runs ___ fast as Budi. They finish together.","as","more","most","than","as fast as = sama cepat."],
+[2,"I have as ___ books as my sister.","many","much","more","most","books countable → as many … as."],
+[2,"There is not as ___ traffic today as yesterday.","much","many","more","few","traffic uncountable → much."],
+[2,"My shoes are similar ___ yours.","to","as","than","with","similar to."],
+[3,"Which phone is lighter?","The new phone","The old phone","Both phones are the same","Neither phone","Teks: The new phone is lighter and faster than the old one.",0],
+[3,"Why is the old phone still useful?","Its battery lasts longer.","Its camera is much better.","It is faster than the new one.","It is more modern.","Teks: its battery lasts longer.",0],
+[3,"Which phone is more expensive?","The new phone","The old phone","They cost the same","Neither phone","Teks: However, it (the new phone) is more expensive.",0],
+[4,"“Not as modern as” means ___.","less modern than","more modern than","as modern as","the most modern","not as … as = lebih rendah/kurang daripada.",0],
+[4,"What can we infer about Dina?","She cannot afford a better phone next year.","She likes her old phone more.","She wants a cheaper phone.","She has no phone.","Teks: she cannot buy a more expensive one next year.",0],
+[3,"Which city has the heaviest traffic?","Jakarta","Yogyakarta","Both cities","Neither city","Teks: It (Jakarta) has … the heaviest traffic.",1],
+[3,"Which city is cheaper to live in?","Yogyakarta","Jakarta","They are the same","Neither city","Teks: Yogyakarta is smaller, quieter, and cheaper.",1],
+[4,"“The best city for studying” means Yogyakarta is ___.","better for studying than the other cities","better than only Jakarta","as good as Jakarta","worse than Jakarta","the best = superlative, paling baik di antara semua.",1],
+[4,"“As delicious as” shows that the food in the two cities is ___.","equally delicious","more delicious in Jakarta","less delicious in Yogyakarta","the most delicious in the world","as + adjective + as = sama.",1],
+[4,"Which sentence is TRUE?","Life in Jakarta is more expensive than in Yogyakarta.","Yogyakarta is busier than Jakarta.","Jakarta is quieter than Yogyakarta.","Yogyakarta has the tallest buildings.","Teks: life in Yogyakarta is not as expensive as in Jakarta.",1],
+[3,"Which is cheaper than going to a gym?","Walking","Swimming","Eating sweets","Sitting all day","Teks: walking … is cheaper than going to a gym.",2],
+[3,"Which exercise is more difficult for beginners?","Swimming","Walking","Both are equally difficult","Neither exercise","Teks: swimming … is more difficult for beginners than walking.",2],
+[3,"What is the healthiest choice of all drinks?","Water","Juice","Milk","Tea","Teks: drinking water is the healthiest choice of all drinks.",2],
+[4,"“The more you walk, the better you feel” means ___.","walking more makes you feel better","walking less makes you feel better","you always feel the same","walking is the best exercise","Pola the + comparative, the + comparative = hubungan sebab-akibat.",2],
+[4,"What is the main idea of the text?","Simple habits can be healthier than other choices.","Gyms are better than walking.","Sweets are healthy.","Swimming is dangerous.","Teks membandingkan kebiasaan sehat dengan pilihan lain.",2],
+[3,"Why are online classes more flexible?","Students can study anywhere.","Teachers help faster.","Scores are always higher.","The lessons are shorter.","Teks: because students can study anywhere.",3],
+[3,"Who got the highest scores in the survey?","Students who studied regularly","Students who studied the longest","Students in offline classes","Students who studied at night","Teks: the highest scores were those who studied regularly.",3],
+[4,"What can we infer about studying at home?","It can be harder to stay focused.","It is always the best method.","It is faster than studying at school.","It is cheaper than any other method.","Teks: many students concentrate less at home than in the classroom.",3],
+[4,"“Not as convenient” means offline classes are ___.","less convenient","more convenient","as convenient","the most convenient","not as … as = lebih rendah/kurang.",3],
+[4,"What is the writer's main message?","Choose the learning method that suits you.","Online classes are always better.","Offline classes are the best.","Study as long as possible.","Teks: choose the method that suits you best.",3]];
+const Q=D.map(([t,q,...r])=>({t,q,o:r.slice(0,4),e:r[4],g:r[5]}));
+
+const $=id=>document.getElementById(id),esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fx=n=>String(Math.round(n*10)/10).replace(".",","),st=v=>v>=75?["Tercapai","ok"]:v>=60?["Hampir Tercapai","wn"]:["Belum Tercapai","dn"];
+let P=[],A=[],i=0,R=null;
+const shuf=a=>{a=[...a];for(let k=a.length-1;k>0;k--){const j=Math.floor(Math.random()*(k+1));[a[k],a[j]]=[a[j],a[k]]}return a};
+const show=n=>[0,1,2,3].forEach(k=>$("s"+k).classList.toggle("hide",k!==n));
+
+function mulai(){const n=$("nm").value.trim(),k=$("kl").value.trim();
+ if(!n||!k){$("m0").textContent="Isi nama dan kelas terlebih dahulu.";return}
+ const ids=Q.map((_,x)=>x);P=[...shuf(ids.filter(x=>Q[x].g===undefined)),...PS.flatMap((_,g)=>shuf(ids.filter(x=>Q[x].g===g)))].map(x=>({x,ord:shuf([0,1,2,3])}));A=Array(P.length).fill(null);i=0;R=null;
+ $("m0").textContent="";show(1);draw()}
+function draw(){const p=P[i],q=Q[p.x];
+ $("pi").textContent=`Soal ${i+1} dari ${P.length} • terjawab ${A.filter(a=>a!==null).length}`;$("pb").style.width=((i+1)/P.length*100)+"%";$("tg").textContent=T[q.t].n;
+ $("qb").innerHTML=`${q.g!==undefined?`<div class="st"><b>📖 ${esc(PS[q.g][0])}</b><br>${esc(PS[q.g][1])}</div>`:""}<p style="font-weight:600;margin:10px 0">${esc(q.q)}</p>`+p.ord.map((oi,k)=>`<button class="o${A[i]===k?" on":""}" onclick="pil(${k})">${"ABCD"[k]}. ${esc(q.o[oi])}</button>`).join("");
+ $("bp").disabled=i===0;$("bn").textContent=i===P.length-1?"Selesai ✓":"Berikutnya →";$("m1").textContent="";
+ $("gr").innerHTML=P.map((_,k)=>`<button class="${A[k]!==null?"d ":""}${k===i?"cu":""}" onclick="i=${k};draw()">${k+1}</button>`).join("")}
+function pil(k){A[i]=k;draw()}
+function go(d){if(d>0&&i===P.length-1){const u=A.filter(a=>a===null).length;if(u){$("m1").textContent=`Masih ada ${u} soal belum dijawab (lihat nomor yang belum berwarna).`;return}hasil();return}
+ i+=d;draw()}
+
+function hasil(){const per=T.map(()=>({b:0,n:0,s:[]})),salah=[];
+ P.forEach((p,k)=>{const q=Q[p.x],ok=p.ord[A[k]]===0;per[q.t].n++;if(ok)per[q.t].b++;else{per[q.t].s.push(p.x);salah.push({q,p,k})}});
+ const b=per.reduce((s,x)=>s+x.b,0),sk=b/Q.length*100;
+ R={nama:$("nm").value.trim(),kelas:$("kl").value.trim(),tgl:new Date().toLocaleString("id-ID"),b,sk,per};
+ show(2);$("rn").textContent=`${R.nama} • ${R.kelas}`;$("sc").textContent=fx(sk);
+ const pr=sk>=85?"Sangat Baik":sk>=75?"Baik":sk>=60?"Cukup":"Perlu Bimbingan",s=st(sk);
+ $("ss").innerHTML=`<span class="bd ${s[1]}">${s[0]}</span> ${pr}`;$("sd").textContent=`${b} benar, ${Q.length-b} salah dari ${Q.length} soal`;
+ const w=T.map((t,x)=>({n:t.n,v:per[x].b/per[x].n*100})).sort((a,b)=>a.v-b.v);
+ $("an").innerHTML=T.map((t,x)=>{const v=per[x].b/per[x].n*100,z=st(v),col=v>=75?"var(--ok)":v>=60?"var(--wn)":"var(--dn)";
+  return`<div class="tp"><div style="display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap"><b>${x+1}. ${t.n}</b><span class="bd ${z[1]}">${z[0]}</span></div>
+  <div class="br"><i style="width:${v}%;background:${col}"></i><u></u></div>
+  <div class="mu">${per[x].b}/${per[x].n} benar • ${fx(v)}%${v<75?" — "+t.r:""}</div></div>`}).join("")+
+  `<p class="mu"><b>Ringkasan:</b> ${w[0].v<75?`prioritas belajar berikutnya adalah <b>${w[0].n}</b> (${fx(w[0].v)}%).`:"semua indikator sudah tercapai. Pertahankan!"}</p>`;
+ $("rv").innerHTML=salah.length?salah.sort((a,b)=>a.k-b.k).map(({q,p,k})=>`<div class="rv"><b>No. ${k+1}</b> <span class="tag">${esc(T[q.t].n)}</span><br>${q.g!==undefined?`<i class="mu">Teks: ${esc(PS[q.g][0])}</i><br>`:""}${esc(q.q)}<br>Jawabanmu: <b>${esc(q.o[p.ord[A[k]]])}</b><br>Jawaban benar: <b>${esc(q.o[0])}</b><br><span class="mu">${esc(q.e)}</span></div>`).join(""):'<p>Luar biasa, semua jawaban benar! 🎉</p>';
+ window.scrollTo(0,0);kirim()}
+function ulang(){show(0);$("fb").classList.add("hide");$("m2").textContent=""}
+
+const qt=s=>'"'+String(s).replace(/"/g,'""')+'"';
+const csvS=()=>{const h=["Nama","Kelas","Tanggal","Skor","Benar","Salah","Status",...T.flatMap(t=>[t.n+" (%)",t.n+" (status)"]),"No. Soal Salah (nomor bank soal)"];
+ const row=[R.nama,R.kelas,R.tgl,fx(R.sk),R.b,Q.length-R.b,st(R.sk)[0],...R.per.flatMap(p=>{const v=p.b/p.n*100;return[fx(v),st(v)[0]]}),R.per.flatMap(p=>p.s).map(x=>x+1).sort((a,b)=>a-b).join(", ")];
+ return[h,row].map(r=>r.map(qt).join(";")).join("\r\n")};
+async function kirimFile(nm,text,mid,fid){const m=$(mid),f=$(fid);let d=null;try{d=window.claude?await claude.use("downloads"):null}catch(e){}
+ const fb=t=>{f.classList.remove("hide");f.value=text;f.focus();f.select();m.style.color="var(--dn)";m.textContent=t};
+ if(!d)return fb("Unduhan tidak tersedia di tampilan ini. Isi file sudah dipilih di kotak bawah: tekan Ctrl+C (atau tahan lalu Salin).");
+ try{await d.save({filename:nm,data:"\ufeff"+text});m.style.color="var(--ok)";m.textContent="File berhasil disimpan."}
+ catch(e){if(e&&e.code==="declined"){m.textContent="";return}fb("Gagal mengunduh ("+(e&&e.code||"error")+"). Isi file sudah dipilih di kotak bawah: salin dan simpan.")}}
+async function salin(text,mid,fid){const m=$(mid),f=$(fid);try{await navigator.clipboard.writeText(text);m.style.color="var(--ok)";m.textContent="Teks CSV tersalin ✓";return}catch(e){}
+ f.classList.remove("hide");f.value=text;f.focus();f.select();let ok=false;try{ok=document.execCommand("copy")}catch(e){}
+ m.style.color=ok?"var(--ok)":"var(--dn)";m.textContent=ok?"Teks CSV tersalin ✓":"Teks sudah dipilih di kotak bawah: tekan Ctrl+C untuk menyalin."}
+function dl(){if(R)kirimFile("hasil-degree-of-comparison-b1-"+R.nama.replace(/[^\w]+/g,"-").toLowerCase()+".csv",csvS(),"m2","fb")}
+function sl(){if(R)salin(csvS(),"m2","fb")}
+let DB=null,UID=null,G=[],GL=null;
+(async()=>{try{DB=await claude.use("db");const u=await claude.use("user");UID=u?await u.id():null;if(u&&await u.canEdit())$("bg").classList.remove("hide")}catch(e){}})();
+async function kirim(){const m=$("m2"),dn=c=>{m.style.color="var(--dn)";m.textContent="Hasil belum terkirim otomatis ke guru"+(c?" (kode: "+c+")":"")+". Klik Salin CSV atau Unduh CSV, lalu kirim ke guru (mis. lewat WhatsApp)."};
+ if(!DB||!R)return dn("db-tidak-aktif");
+ try{const u=await claude.use("user");if(u&&await u.can("data.write")===false)return dn("tanpa-izin")}catch(e){}
+ try{await DB.collection("hasil").add({nama:R.nama,kelas:R.kelas,tgl:R.tgl,ts:Date.now(),b:R.b,sk:R.sk,per:R.per.map(p=>p.b),salah:R.per.flatMap(p=>p.s).map(x=>x+1)});m.style.color="var(--ok)";m.textContent="Hasil juga terkirim otomatis ke guru ✓"}catch(e){dn((e&&e.code)||"error")}}
+const gk=r=>r.nama+"|"+r.kelas+"|"+r.tgl;
+function gadd(r){if(!r||!r.nama||isNaN(r.b)||!Array.isArray(r.per))return 0;if(G.some(x=>gk(x)===gk(r)))return 0;G.push(r);return 1}
+function guru(){show(3);gv();if(AUTH)muat()}
+const H="6106c2273866855b0f9a6a8a8e0b90ad25c2961f3ad96b213bb1328212bf458e";let AUTH=false;
+async function sha(t){const b=await crypto.subtle.digest("SHA-256",new TextEncoder().encode(t));return[...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,"0")).join("")}
+async function masuk(){let h="";try{h=await sha($("gu").value.trim().toLowerCase()+"|"+$("gp").value)}catch(e){}
+ if(h===H){AUTH=true;$("gp").value="";$("m4").textContent="";gv();muat()}else $("m4").textContent="Username atau password salah."}
+function gv(){$("lg").classList.toggle("hide",AUTH);$("gw").classList.toggle("hide",!AUTH)}
+function keluar(){AUTH=false;G=[];GL=null;$("gh").innerHTML="";$("gu").value="";gv();show(0)}
+async function muat(){const m=$("m3");m.style.color="var(--mu)";
+ if(!DB){m.style.color="var(--dn)";m.textContent="Penyimpanan otomatis tidak aktif di tampilan ini (database tidak tersedia). Gunakan Tempel/Impor CSV.";rg();return}
+ try{const s=await DB.collection("hasil").get();let n=0;s.docs.forEach(d=>{n+=gadd(d.data())});
+  m.style.color=s.size?"var(--ok)":"var(--wn)";
+  m.textContent=s.size?`Terhubung. ${s.size} kiriman otomatis dibaca (${n} baru).`:"Terhubung ke penyimpanan, tetapi belum ada kiriman dari siswa. Siswa harus login ke Claude dan diberi akses Contributor; atau pakai Salin CSV lalu tempel di sini."}
+ catch(e){m.style.color="var(--dn)";m.textContent="Gagal membaca kiriman otomatis ("+((e&&e.code)||"error")+"). Gunakan Tempel/Impor CSV."}rg()}
+function rg(){const cur=$("fk")?$("fk").value:"",kl=[...new Set(G.map(r=>r.kelas))].sort();
+ if(!G.length){$("gh").innerHTML='<div class="c"><p class="mu">Belum ada hasil. Hasil siswa akan terkirim otomatis, atau impor file CSV siswa di atas.</p></div>';return}
+ const L=G.filter(r=>!cur||r.kelas===cur),N=L.length,av=a=>a.reduce((x,y)=>x+y,0)/(a.length||1);
+ const ind=T.map((t,x)=>{const v=L.map(r=>r.per[x]*10);return{n:t.n,a:av(v),t:v.filter(y=>y>=75).length/N*100}});
+ const cnt={};L.forEach(r=>r.salah.forEach(k=>cnt[k]=(cnt[k]||0)+1));
+ const it=Q.map((q,k)=>({no:k+1,q,s:cnt[k+1]||0,p:(cnt[k+1]||0)/N*100})).sort((a,b)=>b.s-a.s||a.no-b.no);
+ const sc=L.map(r=>r.sk),tun=sc.filter(v=>v>=75).length,srt=[...L].sort((a,b)=>a.kelas.localeCompare(b.kelas)||a.nama.localeCompare(b.nama));
+ const bar=v=>`<div class="br"><i style="width:${v}%;background:${v>=75?"var(--ok)":v>=60?"var(--wn)":"var(--dn)"}"></i><u></u></div>`;
+ GL={srt,ind,it,N,sc,tun,cur};
+ $("gh").innerHTML=`<div class="c"><label for="fk">Filter kelas</label><select id="fk" onchange="rg()"><option value="">Semua kelas</option>${kl.map(k=>`<option${k===cur?" selected":""}>${esc(k)}</option>`).join("")}</select>
+ <p style="margin:12px 0"><b>${N}</b> siswa • rata-rata <b>${fx(av(sc))}</b> • tuntas (≥75): <b>${tun}</b> (${fx(tun/N*100)}%) • tertinggi ${fx(Math.max(...sc))} • terendah ${fx(Math.min(...sc))}</p>
+ <button class="b" onclick="dlG(1)">⬇ Unduh Rekap Siswa (CSV)</button> <button class="b s" onclick="dlG(2)">⬇ Unduh Analisis Kelas (CSV)</button> <button class="b s" onclick="lap()">📄 Buat Laporan Nilai</button></div>
+ <div class="c"><h2>Ketercapaian Klasikal per Indikator</h2>`+ind.map(x=>{const z=st(x.a);return`<div class="tp"><div style="display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap"><b>${x.n}</b><span class="bd ${z[1]}">${z[0]}</span></div>${bar(x.a)}<div class="mu">Rata-rata ${fx(x.a)}% • siswa tuntas ${fx(x.t)}%</div></div>`}).join("")+`</div>
+ <div class="c"><h2>10 Soal Paling Sulit</h2>`+it.slice(0,10).map(x=>`<div class="rv"><b>No. ${x.no}</b> <span class="tag">${esc(T[x.q.t].n)}</span> <span class="bd dn">${fx(x.p)}% salah</span><br>${esc(x.q.q)}<br><span class="mu">Jawaban benar: ${esc(x.q.o[0])}</span></div>`).join("")+`</div>
+ <div class="c"><h2>Daftar Siswa</h2><div style="overflow-x:auto"><table><tr><th>Nama</th><th>Kelas</th><th>Skor</th>${T.map((t,i)=>`<th>I${i+1}</th>`).join("")}</tr>`+srt.map(r=>`<tr><td>${esc(r.nama)}</td><td>${esc(r.kelas)}</td><td><span class="bd ${st(r.sk)[1]}">${fx(r.sk)}</span></td>${r.per.map(b=>`<td><span class="bd ${st(b*10)[1]}">${b*10}</span></td>`).join("")}</tr>`).join("")+`</table></div><p class="mu">I1–I5 = indikator 1–5 (persen benar).</p></div>`}
+function pcsv(t){t=t.replace(/^\ufeff/,"");const f1=t.split(/\r?\n/).find(x=>x.trim())||"",dl=[";","\t",","].map(d=>[d,f1.split(d).length]).sort((a,b)=>b[1]-a[1])[0][0];
+ const rows=[];let r=[],c="",q=false;
+ for(let i=0;i<t.length;i++){const ch=t[i];
+  if(q){if(ch==='"'){if(t[i+1]==='"'){c+='"';i++}else q=false}else c+=ch}
+  else if(ch==='"')q=true;
+  else if(ch===dl){r.push(c);c=""}
+  else if(ch==="\n"||ch==="\r"){if(ch==="\r"&&t[i+1]==="\n")i++;r.push(c);c="";if(r.some(x=>x.trim()))rows.push(r);r=[]}
+  else c+=ch}
+ r.push(c);if(r.some(x=>x.trim()))rows.push(r);
+ return rows.map(x=>x.map(y=>y.trim())).filter(x=>x[0].toLowerCase()!=="nama")}
+const nm_=x=>+String(x||"0").replace(",",".");
+function rec(c){if(c.length<16||!c[0])return null;const r={nama:c[0],kelas:c[1],tgl:c[2],sk:nm_(c[3]),b:nm_(c[4]),per:[7,9,11,13,15].map(k=>Math.round(nm_(c[k])/10)),salah:(c[17]||"").split(",").map(s=>+s.trim()).filter(Boolean)};
+ return isNaN(r.sk)||isNaN(r.b)||r.per.some(isNaN)?null:r}
+function ing(t){let n=0,tot=0;pcsv(t).forEach(c=>{tot++;const r=rec(c);if(r)n+=gadd(r)});return[n,tot]}
+function pesan(n,t,ok){const m=$("m3");m.style.color=n?"var(--ok)":"var(--dn)";m.textContent=n?ok:(t?"Data sudah ada, atau formatnya tidak dikenali.":"Tidak ada data terbaca. Pastikan isinya berasal dari tombol Unduh/Salin CSV hasil siswa.")}
+async function imp(fs){let n=0,t=0;for(const f of fs){try{const x=ing(await f.text());n+=x[0];t+=x[1]}catch(e){}}
+ pesan(n,t,`${n} hasil baru diimpor.`);$("ff").value="";rg();if(n)lap()}
+function tempel(){const x=ing($("pt").value);pesan(x[0],x[1],`${x[0]} hasil siswa dibaca dari teks. Laporan nilai sudah dibuat di bawah.`);if(x[0])$("pt").value="";rg();if(x[0])lap()}
+const JD=()=>document.title.split(" + ")[0];
+function lapHTML(){const{srt,ind,N,sc,tun,cur}=GL,av=sc.reduce((a,b)=>a+b,0)/N,cl=z=>z[1]==="ok"?"#2e7d32":z[1]==="wn"?"#b97a00":"#d6452a",
+ bd=v=>{const z=st(v);return`<b style="color:${cl(z)}">${z[0]}</b>`},rem=srt.filter(r=>r.sk<75);
+ return`<h1>Laporan Nilai — ${esc(JD())}</h1><p>Kelas: ${cur?esc(cur):"Semua kelas"} &bull; Dicetak: ${new Date().toLocaleDateString("id-ID")}</p>
+<h2>Ringkasan</h2><table><tr><th>Jumlah Siswa</th><th>Rata-rata</th><th>Tertinggi</th><th>Terendah</th><th>Tuntas (≥75)</th><th>Belum Tuntas</th></tr><tr><td>${N}</td><td>${fx(av)}</td><td>${fx(Math.max(...sc))}</td><td>${fx(Math.min(...sc))}</td><td>${tun} (${fx(tun/N*100)}%)</td><td>${N-tun}</td></tr></table>
+<h2>Ketercapaian per Indikator</h2><table><tr><th>Indikator</th><th>Rata-rata (%)</th><th>Siswa Tuntas (%)</th><th>Status</th></tr>${ind.map(x=>`<tr><td>${esc(x.n)}</td><td>${fx(x.a)}</td><td>${fx(x.t)}</td><td>${bd(x.a)}</td></tr>`).join("")}</table>
+<h2>Daftar Nilai Siswa</h2><table><tr><th>No</th><th>Nama</th><th>Kelas</th><th>Skor</th><th>Status</th>${T.map((t,i)=>`<th>I${i+1}</th>`).join("")}</tr>${srt.map((r,i)=>`<tr><td>${i+1}</td><td>${esc(r.nama)}</td><td>${esc(r.kelas)}</td><td>${fx(r.sk)}</td><td>${bd(r.sk)}</td>${r.per.map(b=>`<td>${b*10}</td>`).join("")}</tr>`).join("")}</table>
+<p style="font-size:12px">${T.map((t,i)=>`I${i+1} = ${esc(t.n)}`).join(" &bull; ")} (angka = persen benar)</p>
+<h2>Siswa yang Perlu Remedial</h2>${rem.length?`<ol>${rem.map(r=>`<li>${esc(r.nama)} (${esc(r.kelas)}), skor ${fx(r.sk)}. Belum tercapai: ${esc(T.filter((t,i)=>r.per[i]*10<75).map(t=>t.n).join("; ")||"-")}</li>`).join("")}</ol>`:"<p>Semua siswa tuntas.</p>"}`}
+function lap(){if(!GL)return;$("lp").innerHTML=`<div class="c"><p><button class="b" onclick="dlLap()">⬇ Unduh Laporan (HTML)</button></p><p class="mu">Buka file HTML hasil unduhan, lalu tekan Ctrl+P → Simpan sebagai PDF untuk mendapat laporan siap cetak.</p><div id="lr">${lapHTML()}</div></div>`;$("lp").scrollIntoView({behavior:"smooth"})}
+function dlLap(){if(!GL)return;const doc=`<!DOCTYPE html><html lang="id"><head><meta charset="utf-8"><title>Laporan Nilai</title><style>body{font:14px/1.5 Arial,sans-serif;margin:24px;color:#111}table{border-collapse:collapse;width:100%;margin:8px 0}th,td{border:1px solid #999;padding:4px 8px;text-align:left}th{background:#eee}h1{font-size:20px}h2{font-size:16px;margin-top:22px}</style></head><body>${lapHTML()}</body></html>`;
+ kirimFile("laporan-nilai-"+((document.title.match(/\((.*?)\)/)||["","quiz"])[1].toLowerCase().replace(/[^\w]+/g,"-"))+".html",doc,"m3","fb3")}
+function dlG(t){if(!GL)return;const{srt,ind,it}=GL;let rows,nm;
+ if(t===1){nm="rekap-siswa-degree-of-comparison-b1.csv";rows=[["Nama","Kelas","Tanggal","Skor","Benar","Salah","Status",...T.map(x=>x.n+" (%)"),...T.map(x=>x.n+" (status)"),"No. Soal Salah"],...srt.map(r=>[r.nama,r.kelas,r.tgl,fx(r.sk),r.b,Q.length-r.b,st(r.sk)[0],...r.per.map(b=>b*10),...r.per.map(b=>st(b*10)[0]),r.salah.join(", ")])]}
+ else{nm="analisis-kelas-degree-of-comparison-b1.csv";rows=[["Indikator","Rata-rata (%)","Siswa Tuntas (%)","Status"],...ind.map(x=>[x.n,fx(x.a),fx(x.t),st(x.a)[0]]),[],["No","Indikator","Soal","Jawaban Benar","Jumlah Salah","Salah (%)"],...[...it].sort((a,b)=>a.no-b.no).map(x=>[x.no,T[x.q.t].n,x.q.q,x.q.o[0],x.s,fx(x.p)])]}
+ kirimFile(nm,rows.map(r=>r.map(qt).join(";")).join("\r\n"),"m3","fb3")}
+
+(()=>{const K="rekapG:"+document.title,sv=()=>{try{localStorage.setItem(K,JSON.stringify(G))}catch(e){}},g0=gadd,r0=rg;
+ gadd=function(r){const x=g0(r);if(x)sv();return x};
+ try{JSON.parse(localStorage.getItem(K)||"[]").forEach(r=>g0(r))}catch(e){}
+ window.hpsG=function(){G=[];GL=null;try{localStorage.removeItem(K)}catch(e){}$("lp").innerHTML="";rg()};
+ rg=function(){r0();const gh=$("gh"),c=[...gh.children];if(c.length<4)return;
+  const last=c[c.length-1],h=last.querySelector("h2");
+  if(h){h.textContent="Hasil Seluruh Siswa ("+(GL?GL.N:0)+" siswa)";h.insertAdjacentHTML("afterend",'<p><button class="b" onclick="dlG(1)">⬇ Unduh Hasil Seluruh Siswa (CSV)</button> <button class="b s" onclick="lap()">📄 Laporan Nilai</button></p>')}
+  gh.insertBefore(last,c[1]);
+  c[0].insertAdjacentHTML("beforeend",'<p class="mu">Data rekap tersimpan di browser ini. <a href="#" onclick="hpsG();return false">Hapus data rekap</a></p>')}})();
+</script></body></html>
